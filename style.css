@@ -245,13 +245,13 @@ ul > li > a{
         font-family: "Margarine", sans-serif;
         width: 100%;
         position: relative;
-        margin: 0 auto;
-        right: 20px;
+        margin: 4em auto 0;
+        right: 30px;
         top: -20px;
     }
 
     .header > nav > ul{
-        font-size: 2.25rem;
+        font-size: 2.75rem;
     }
 
     .scissor{
@@ -259,7 +259,7 @@ ul > li > a{
         width: 225.88px;
         position: absolute;
         transform: rotate(90deg);
-        top: -40px;
+        top: -60px;
         right: 170px;
         opacity: 60%;
     }
