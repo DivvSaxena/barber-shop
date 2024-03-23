@@ -9,13 +9,90 @@
 <body>
     <header>
         <div class="container">
-            <h1>HAIRCUTS</h1>
-            <ul>
-                <li>about</li>
-                <li>services</li>
-                <li>location</li>
-            </ul>
+            <div class="header">
+                <h1>HAIRCUTS</h1>
+                <img src="./assets/img/kaichi.png" alt="scissor" class="scissor">
+                <img src="./assets/img/shop.png" alt="metal slab" class="metalslab">
+                <nav>
+                    <ul>
+                        <li><a onclick="scrollFunctionOne()">about</a></li>
+                        <li><a onclick="scrollFunctionTwo()">services</a></li>
+                        <li><a onclick="scrollFunctionThree()">location</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
+    <section>
+        <div class="container">
+            <div class="section-one">
+                <h2 id="first">Precision is our art</h2>
+                <div class="gif-one"></div>
+                <h2>style is our signature</h2>
+                <div class="gif-two"></div>
+            </div>
+        </div>
+    </section>
+    <section id="owner">
+        <div class="container">
+            <div class="section-two">
+                <h2>Hey I am Mohd Kaif</h2>
+                <div class="sub-section-two">
+                    <img src="./assets/img/owner.jpeg" alt="image of owner" class="owner">
+                    <p>
+                        Hey, I'm Mohd Kaif, originally from Shahjahanpur. Two years ago,
+                        I found my passion for hair cutting in Lucknow. 
+                        After mastering this art, I opened my own barber shop just a month ago.
+                        At my shop, it's about crafting experiences and empowering clients with confidence. 
+                        Each haircut reflects both skill and personality.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <div class="section-three">
+                <h2>BEST HAIRCUTS</h2>
+                <div class="sub-section-three">
+                    <div class="gif-three"></div>
+                    <br>
+                    <div class="price">
+                        <h3>Haircut = Rs70</h3>
+                        <h3>Shave = Rs40</h3>
+                        <h3>and more...........</h3>
+                    </div>
+                </div>
+                <div class="gif-four"></div>
+            </div>
+        </div>
+    </section>
+    <section id="location">
+        <div class="container">
+            <div class="section-four">
+                <h2>Location</h2>
+                <p>
+                    Find me at 175 Ashiyana Colony, Sector M, Parag Road, near Parag Road LDA Colony, 
+                    Lucknow, Uttar Pradesh.<br><br>
+                    My shop is your destination for style and confidence, 
+                    open every day of the week from 8:00 am to 11:00 pm. 
+                    Come by anytime and leave with a fresh look that speaks volumes
+                </p>
+                <div class="gif-five"></div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <h2>
+                    Design & Built
+                    by Divv Saxena
+                </h2>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
