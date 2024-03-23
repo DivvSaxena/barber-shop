@@ -22,6 +22,7 @@ html,body{
 /* HEADER STYLING */
 .header{
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     align-items: center; 
     width: 100%;
