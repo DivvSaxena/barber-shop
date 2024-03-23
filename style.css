@@ -17,7 +17,6 @@ html,body{
     align-items: center;
     line-height: 1.5;
     position: relative;
-    overflow: hidden;
 }
 
 /* HEADER STYLING */
@@ -251,7 +250,7 @@ ul > li > a{
     }
 
     .header > nav > ul{
-        font-size: 2.75rem;
+        font-size: 2.5rem;
     }
 
     .scissor{
