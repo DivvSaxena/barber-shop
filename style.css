@@ -16,6 +16,7 @@ html,body{
     line-height: 1.5;
     position: relative;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 /* HEADER STYLING */
